@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ns3: 
+    build: .
+    volumes:
+      - ./scratch:/research/ns3/scratch
+      - ./output:/research/ns3/output
+      - ./modules:/research/ns3/modules
+
+    
